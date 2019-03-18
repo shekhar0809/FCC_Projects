@@ -1,0 +1,136 @@
+html {
+    text-align: center;
+    align-items: center;
+}
+
+
+#image {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 70vw;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-div {
+    background-color: transparent;
+    width: 75vw;
+    height: auto;
+    padding: 5vw 5vw;
+    margin:auto;
+}
+
+#img-caption {
+    margin-top: 1.7em;
+    font-size: 1.7em;
+    color: #fff;
+}
+
+#tribute-link {
+    color: #86c232;
+}
+
+#tribute-link:hover {
+    color: orangered;
+}
+
+#main {
+    font-family: sans-serif , monospace;
+    background-color: #222629;
+}
+
+#title {
+    font-size: 3em;
+    padding-top: 1em;
+    color: #86c232;
+}
+
+
+#tribute-info {
+    line-height: 1.7em;
+}
+
+#wikipedia {
+    color: #edcbc0;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+.age , .wins , .plays , .nationality , .world-ranking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 40px;
+}
+
+.awards , .profile {
+    display: block;
+    position: relative;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    padding-bottom: 1.5em;
+    background-color: #222629;
+    color: #fff;
+}
+
+h2.a-text , h2.p-text {
+    color: #86c232;
+}
+
+.basic-info {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-around;
+    width: inherit;
+    background-color: #ffb7b7;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.7em;
+    margin-right: auto;
+    margin-bottom: 1.7em;
+    margin-left: auto;
+    width: 40vw;
+    height: auto;
+    text-align: center;
+    border: 2px solid #474b4f;
+}
+
+.info-container {
+    display: block;
+    position: relative;
+    align-items: center;
+    font-size: 1.3em;
+    line-height: 1.7em;
+    background-color: transparent;
+    padding: 40px 80px;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.7em;
+}
+
+
+.nationality {
+    background-color: ;
+}
+
+
+.ranking {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: inherit;
+    text-transform: uppercase;
+    background-color: orangered;
+    color: white;
+    line-height: 1.7em;
+}
