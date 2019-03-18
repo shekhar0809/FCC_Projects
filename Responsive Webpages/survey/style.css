@@ -1,0 +1,112 @@
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222629;
+}
+
+html {
+    align-items: center;
+    font-size: 1.2em;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
+    background-color: #fcffff;
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+    background-color: #3aafa9;
+    color: white;
+    padding: 20px 40px;
+}
+
+#description {
+    font-style: italic;
+}
+
+#dropdown {
+    background-color: #61c4f9;
+    border-radius: 2px;
+    border: none;
+    color: #17252a;
+    padding: 5px;
+    width: 150px;
+    height: 30px;
+    margin: 15px;
+}
+
+#dropdown:hover {
+    background-color: #9eddff;
+}
+
+#submit {
+    margin: 20px 10px 30px 10px;
+    height: 60px;
+    width: 200px;
+    font-size: 1.5em;
+    font-family: monospace;
+    background-color: #3aafa9;
+    color: #fff;
+}
+
+#submit:hover {
+    background-color: #2b7a78;
+    border: none;
+
+    cursor: pointer;
+}
+
+#topping-list {
+    list-style: none;
+}
+
+#name , #email , #number {
+    width: 150px;
+    height: 30px;
+    margin: 15px;
+}
+
+.choose {
+    color: #007e80;
+}
+
+
+.form {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 1.7em;
+    padding: 20px;
+    background-color: #def2f1;
+    color: #17252a;
+}
+
+.heading-topping {
+    font-size: 1.5em;
+}
+
+.l-align {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+
+
+.r-align {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+}
+
+
+.text {
+    width: 60%;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.topping {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}

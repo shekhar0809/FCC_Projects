@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Pizza</title>
+</head>
+
+<body>
+    <header>
+        Survey Form
+    </header>
+
+    <div class="form">
+        <h1 id="title">How do you like your Pizza?</h1>
+        <p id="description">
+            We'd like to take a short surver on how people like their pizza.
+        </p>
+
+        <div class="form-wrapper">
+            <form id="survey-form">
+                <div class="about-person">
+                    <div class="name">
+                        <div class="r-align">
+                            <label id="name-label" for="name">*Name: </label>
+                        </div>
+                        <div class="l-align">
+                            <input type="text" id="name" placeholder="Enter your name" name="Name" value="" required>
+                        </div>
+                    </div>
+
+                    <div class="email">
+                        <div class="r-align">
+                            <label id="email-label" for="email">*E-mail: </label>
+                        </div>
+                        <div class="l-align">
+                            <input type="email" id="email" placeholder="example@xyz.abc" name="Email" value="" required>
+                        </div>
+                    </div>
+
+                    <div class="age">
+                        <div class="r-align">
+                            <label id="number-label" for="number">Age: </label>
+                        </div>
+                        <div class="l-align">
+                            <input type="number" id="number" placeholder="10 to 60" name="Age" value="" min="10" max="60">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-pizza">
+                    <div class="size">
+                        <div class="r-align">
+                            <label for="p-size">What size do you usually prefer? </label>
+                        </div>
+                        <div class="l-align">
+                            <select id="dropdown" >
+                                <option disabled value>Select a value</option>
+                                <option value="small">Regular</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="crust">
+                        <div class="r-align">
+                            <label for="dropdown">How do you prefer the crust: </label>
+                        </div>
+                        <div class="l-align">
+                            <select id="dropdown" >
+                                <option disabled value>Select a value</option>
+                                <option value="hand">Hand Tossed</option>
+                                <option value="thin">Thin Crust</option>
+                                <option value="roll">Flatbread</option>
+                                <option value="cheese">Cheese Burst</option>
+                                <option value="neapolitan">Neapolitan Crust</option>
+                                <option value="chicago">Chicago Deep Dish</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="brand">
+                        <div class="r-align">
+                            <label for="outlets">Which is your favoured outlet?</label>
+                        </div>
+
+                        <div class="l-align">
+                            <ul id="outlets" style="list-style: none;">
+                                <li>
+                                    <label ><input type="radio" id="domino" name="outlet" value="domino">Domino's</label>
+                                </li>
+
+                                <li>
+                                    <label ><input type="radio" id="hut" name="outlet" value="hut">Pizza Hut</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <hr>
+
+                    <div class="toppings">
+                        <h1 class="choose">Choose from your favourite toppings!</h1>
+
+                        <div class="topping">
+
+                            <p class="heading-topping">Vegetarian Pizza Toppings</p>
+
+                            <ul id="topping-list">
+                                <li>
+                                    <input type="checkbox" name="veg" value="1">Pesto with white beans, tomato, arugula, and Parmesan cheese
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="veg" value="2">Pesto with artichoke hearts, feta cheese, sun-dried tomatoes, and Parmesan cheese
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="veg" value="3">Alfredo sauce, spinach, mushrooms, red bell peppers, and Asiago cheese
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="veg" value="4">Garlic olive oil with Grúyere cheese, caramelized onions, and baked butternut squash
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="veg" value="5">Goat cheese with arugula and red onion
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="veg" value="6">Jalapeño peppers and pineapple
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="veg" value="7">Fried eggplant slices and black olives
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="veg" value="8">Sauceless with garlic, lime, avocado, and fried green tomatoes
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="veg" value="9">Olive oil with paper-thin sliced potatoes, sage, and Fontina cheese
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="veg" value="10">Figs, artichoke hearts, Gorgonzola, and balsamic vinegar
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="veg" value="11">Alfredo sauce with artichoke hearts, garlic, and jalapeños
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="veg" value="12">Caramelized fennel, onion, olives, and Fontina cheese
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="veg" value="13">Goat cheese with red grapes and rosemary
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="veg" value="14">Roasted peppers, capers, and ricotta
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="veg" value="15">Caramelized onion, kale, and sliced green apples
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="topping">
+
+                            <p class="heading-topping">Meat Pizza Toppings</p>
+
+                            <ul id="topping-list">
+                                <li>
+                                    <input type="checkbox" name="meat" value="1">Sausage, caramelized onions, and fennel
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="meat" value="2">Pepperoni, tomatoes, mushrooms, and onion
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="meat" value="3">Pepperoni, sausage, green pepper, onion, and mushroom
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="meat" value="4">BBQ sauce, grilled chicken, scallions, and cheddar cheese
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="meat" value="5">Thousand Island dressing, topped with sauerkraut, corned beef or pastrami, and Swiss cheese
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="meat" value="6">Corn and spicy Italian salami
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="meat" value="7">Sausage and pineapple
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="meat" value="8">Figs, prosciutto, and caramelized onions
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="meat" value="9">Spinach, caramelized onion, and bacon
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="meat" value="10">Buffalo chicken and blue cheese
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="meat" value="11">Roasted red peppers, chorizo, and feta
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="meat" value="12">Roasted Brussels sprouts and bacon or pancetta
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="topping">
+                            <p class="heading-topping">Seafood Pizza Toppings</p>
+
+                            <ul id="topping-list">
+                                <li>
+                                    <input type="checkbox" name="sea" value="1">Anchovies, tomato, ricotta, and mustard greens
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="sea" value="2">Mozzarella and canned smoked oysters
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="sea" value="3">Pesto, butterflied prawns, mushrooms, and Parmesan cheese
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="sea" value="4">Sardines, red onions, and black olives
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="sea" value="5">Alfredo sauce, shrimp, and tomatoes
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="sea" value="6">Canned tuna fish, red onions, and black olives
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="sea" value="7">Mascarpone or cream cheese, topped with smoked salmon, capers, and red onion
+                                </li>
+
+                                <li>
+                                    <input type="checkbox" name="sea" value="8">Cajun-seasoned shrimp, red bell peppers, red onions, and garlic
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <p>Share your amazing Pizza experiences...</p>
+                        <textarea name="name" rows="8" cols="80"></textarea>
+                    </div>
+
+                    <div class="submit-wrapper">
+                        <button id="submit" type="submit" name="button">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        contact: chandrashekharjangra@gmail.com
+    </footer>
+
+</body>
+</html>
