@@ -1,0 +1,228 @@
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: orangered;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    color: black;
+    background-color: transparent;
+    z-index: 10;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: none;
+    background-color: #4e4e50;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    background-color: #1a1a1d;
+    vertical-align: middle;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5%;
+    color: #c3073f;
+    font-size: 1.3em;
+}
+
+span {
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#about .slide {
+    background-color: #c3073f;
+}
+
+#half {
+    display: flex;
+    width: 50%;
+    min-height: 100vh;
+    height: auto;
+}
+
+#my-image {
+    position: absolute;
+    height: 120px;
+    width: auto;
+    z-index: 50;
+    top: 50px;
+    transform: rotate(90deg);
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}
+
+#navbar {
+    position: fixed;
+    height: 70px;
+    right: 0;
+    margin-right: 10px;
+    margin-left: auto;
+    z-index: 100;
+    padding-right: 30px;
+}
+
+#projects .slide {
+    background-color: white;
+}
+
+#projects .content {
+    background-color: #3aafa9;
+}
+
+#welcome-section {
+    margin-top: -70px;
+    background-color: #1a1a1d;
+    height: 100vh;
+    color: #c3073f;
+    font-size: 1.3em;
+}
+
+.about-me {
+    margin: 30px 80px;
+    font-size: 1.3em;
+    line-height: 1.7em;
+    color: black;
+    font-family: 'Lora', serif;
+
+}
+
+.about-me .para-1 {
+    font-weight: bold;
+}
+
+.about-me p {
+    margin: 60px 0;
+}
+
+.contact-me {
+    margin: 20px 40px 0 40px;
+    width: 100%;
+    font-family: 'Neucha', cursive;
+    padding: 40px;
+}
+
+.contact-me .para-1 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    margin-top: auto;
+}
+
+.content {
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+}
+
+.details {
+    text-align: left;
+    margin-top: 50px;
+    padding: none;
+    line-height: 1em;
+}
+
+.hello h1 {
+    color: #fff;
+}
+
+/* .image-container {
+    content: "";
+    top: 130%;
+    left: 50%;
+    position: absolute;
+    margin-left: -80px;
+} */
+
+.img-logo {
+    height: 100px;
+    width: auto;
+}
+
+.link {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.line {
+    margin: auto;
+    padding: 30px 35px;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+
+}
+
+.main-section {
+    min-height: 100vh;
+    height: auto;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.project-tile {
+    height: 40vh;
+    display: block;
+    width: 40vh;
+    margin: 20px 0;
+    background-color: pink;
+    border-radius: 10px;
+}
+
+.project-tile h1 {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    color: #def2f1;
+    padding: 10px;
+    background-color: #17252a;
+    border-radius: 10px;
+
+}
+
+.slide {
+    background-color: orange;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 3em;
+}
+
+.slide h1 {
+    margin: auto;
+}
+
+@media ( max-width: 900px ) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .slide {
+        height: 100vh;
+    }
+
+    #half {
+        width: 100%;
+    }
+}
